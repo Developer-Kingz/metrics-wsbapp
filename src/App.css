@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+.home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.details {
+  width: 50%;
+  height: 25vh;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+}
+.details:nth-child(3n+1) {
+  background-color: rgb(210, 72, 72);
+  color: white;
+}
+
+.details-inner {
+  margin-top: 60%;
+  margin-right: 5%;
+}
