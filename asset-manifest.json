@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/metrics-wsbapp/static/css/main.1ffb5ced.css",
+    "main.js": "/metrics-wsbapp/static/js/main.c2a24358.js",
+    "index.html": "/metrics-wsbapp/index.html",
+    "main.1ffb5ced.css.map": "/metrics-wsbapp/static/css/main.1ffb5ced.css.map",
+    "main.c2a24358.js.map": "/metrics-wsbapp/static/js/main.c2a24358.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ffb5ced.css",
+    "static/js/main.c2a24358.js"
+  ]
+}
