@@ -15,7 +15,7 @@ const ViewMore = () => {
     <>
       <NavBar />
       <div className="viewmore">
-        <NavLink to="/"><FontAwesomeIcon className="arr" icon={faArrowLeft} /></NavLink>
+        <NavLink to="/" className="nav"><FontAwesomeIcon className="arr" icon={faArrowLeft} /></NavLink>
         <div className="details-cont">
           <img src={details.flags.svg} alt="" className="cont-flag" />
 

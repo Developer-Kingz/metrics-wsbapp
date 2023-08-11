@@ -25,7 +25,7 @@ const initialState = {
   },
 };
 
-describe('ViewMore Component', () => {
+describe('ViewMore Component', () => { 
   it('renders correctly', () => {
     const store = mockStore(initialState);
 

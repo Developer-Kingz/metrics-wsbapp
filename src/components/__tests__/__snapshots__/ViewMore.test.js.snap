@@ -29,7 +29,7 @@ exports[`ViewMore Component renders correctly 1`] = `
   >
     <a
       aria-current="page"
-      class="active"
+      class="nav active"
       href="/"
     >
       <svg
@@ -62,23 +62,23 @@ exports[`ViewMore Component renders correctly 1`] = `
           class="cont-in"
         >
           <h1>
-            Country Name: 
+            Country Name:
           </h1>
           <h3>
-            Capital: Test Capital
+            Capital:Test Capital
           </h3>
         </div>
         <div
           class="region"
         >
           <h4>
-            Region: 
+            Region:
           </h4>
           <h4>
-            Countries Population: Test Population
+            Countries Population:Test Population
           </h4>
           <h4>
-            Language: spain
+            Language:spain
           </h4>
           <h4 />
         </div>

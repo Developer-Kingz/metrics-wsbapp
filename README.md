@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Book Store] <a name="Book store"></a>
+# 📖 [Metrics WebApp] <a name="Metrics WebApp"></a>
 
 **["Book Store"]** in this project im learning how to work with React by buiding an application that allows you to search through a list of countries 
 
