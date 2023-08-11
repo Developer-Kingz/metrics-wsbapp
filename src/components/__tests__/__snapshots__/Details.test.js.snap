@@ -14,6 +14,7 @@ exports[`Details component matches snapshot 1`] = `
       >
         <img
           alt=""
+          class="flags"
           src="flag.png"
         />
         <h4>

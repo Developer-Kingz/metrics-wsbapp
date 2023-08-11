@@ -95,6 +95,7 @@
 
 .cont-in {
   margin: auto;
+
   /* font-weight: 700; */
 }
 
@@ -112,6 +113,7 @@
   .flags {
     width: 30vw;
   }
+
   .home {
     width: 100%;
     display: grid;
@@ -119,6 +121,7 @@
     gap: 0;
     background-color: darkslategrey;
   }
+
   .details {
     display: flex;
     align-items: center;
@@ -127,12 +130,14 @@
     height: 30vh;
     cursor: pointer;
   }
+
   .nav-inner {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 45%;
   }
+
   .search-country {
     width: 40vw;
     height: 5vh;
@@ -143,6 +148,7 @@
     outline: none;
     border-radius: 5px;
   }
+
   .details-cont {
     width: 90vw;
     height: 80vh;
@@ -153,20 +159,24 @@
     align-items: center;
     justify-content: space-between;
   }
+
   .cont-flag {
     width: 90vw;
   }
+
   .details-cont-inner {
     width: 80%;
     height: 50%;
     font-size: 14px;
     padding-top: 30px;
   }
-  
+
   .cont-in {
     margin: auto;
+
     /* font-weight: 400; */
   }
+
   .nav {
     color: white;
   }
