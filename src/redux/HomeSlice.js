@@ -7,7 +7,7 @@ const initialState = {
   error: null,
 };
 
-const BASE_URL = 'https://financialmodelingprep.com/api/v3/income-statement/AAPL?limit=120&apikey=66fbcc53f392bce2a7e2c545a16ba8a9';
+const BASE_URL = 'https://restcountries.com/v3.1/all';
 
 const fetchData = createAsyncThunk('data/fetchData', async () => {
   try {

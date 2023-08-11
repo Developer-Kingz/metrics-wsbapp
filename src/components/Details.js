@@ -1,15 +1,27 @@
-/* eslint-disable */
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const Details = () => {
+const Details = ({ country }) => {
+  const { name, flags } = country;
+  const { common } = name;
   return (
-    <div className='details'>
-        <div className='details-inner'>
-        <h4>Europe</h4>
-      <p>6,000 views</p>
+    <NavLink to={`/details/${common}`} className="navlink">
+      <div className="details">
+        <div className="details-inner">
+          <img src={flags.png} alt="" className="flags" />
+          <h4>{name.official}</h4>
         </div>
-    </div>
-  )
-}
+      </div>
+    </NavLink>
+  );
+};
 
-export default Details
+export default Details;
+
+Details.propTypes = {
+  country: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.number),
+    PropTypes.arrayOf(PropTypes.string),
+  ]).isRequired,
+};
