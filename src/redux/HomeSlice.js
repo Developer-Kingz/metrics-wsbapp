@@ -7,7 +7,7 @@ const initialState = {
   error: null,
 };
 
-const BASE_URL = 'https://restcountries.com/v3.1/all';
+const BASE_URL = process.env.REACT_APP_COUNTRY_URL;
 
 const fetchData = createAsyncThunk('data/fetchData', async () => {
   try {
