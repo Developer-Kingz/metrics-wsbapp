@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, NavLink } from 'react-router-dom';
@@ -15,38 +16,34 @@ const ViewMore = () => {
     <>
       <NavBar />
       <div className="viewmore">
-        <NavLink to="/" className="nav"><FontAwesomeIcon className="arr" icon={faArrowLeft} /></NavLink>
+        <NavLink to="/metrics-wsbapp" className="nav"><FontAwesomeIcon className="arr" icon={faArrowLeft} /></NavLink>
         <div className="details-cont">
           <img src={details.flags.svg} alt="" className="cont-flag" />
 
           <div className="details-cont-inner">
-            <div className="cont-in">
-              <h1>
-                Country Name:
+              <div>
+                <p>Country Name:</p>
                 {details.name.common}
-              </h1>
-              <h3>
-                Capital:
+              </div>
+              <div>
+                <p>Capital:</p>
                 {details.capital}
-              </h3>
-            </div>
-
-            <div className="region">
-              <h4>
-                Region:
+              </div>
+          
+              <div>
+                <p>Region:</p>
                 {details.region}
-              </h4>
-              <h4>
-                Countries Population:
+              </div>
+              <div>
+                <p>Countries Population:</p>
                 {details.population}
-              </h4>
-              <h4>
-                Language:
-                {details.languages.ukr}
-              </h4>
-              <h4>{details.timezones}</h4>
+              </div>
+              <div>
+                <p>Subregion:</p>
+                {details.subregion}
+              </div>
+              <div> <p>TimeZone:</p> {details.timezones}</div>
             </div>
-          </div>
         </div>
       </div>
     </>

@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/metrics-wsbapp" element={<Home />} exact />
           <Route path="/details/:name" element={<ViewMore />} exact />
         </Routes>
       </BrowserRouter>

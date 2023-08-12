@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Details from './Details';
@@ -6,6 +7,7 @@ import NavBar from './NavBar';
 
 const Home = () => {
   const countries = useSelector((state) => state.data.data);
+  console.log(countries)
   const [search, setSearch] = useState('');
 
   const findCountries = countries.filter((country) => country.name.official.toLowerCase()
