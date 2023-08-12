@@ -32,7 +32,7 @@
 
 # 📖 [Metrics WebApp] <a name="Metrics WebApp"></a>
 
-**["Book Store"]** in this project im learning how to work with React by buiding an application that allows you to search through a list of countries 
+**["Metrics WebApp"]** in this project im learning how to work with React by buiding an application that allows you to search through a list of countries 
 
 ## 🛠 Built With <a name="built-with">React</a>
 
@@ -121,7 +121,7 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - Demo Video: [Demo Video] (https://www.loom.com/share/955c0e9e766d4a9eadc9094c6c9d5546)
-- Live Demo: [Demo Link] (https://Developer-Kingz.github.io)
+- Live Demo: [Demo Link] (https://search-countries-app.onrender.com)
 
 <!-- CONTRIBUTING -->
 
