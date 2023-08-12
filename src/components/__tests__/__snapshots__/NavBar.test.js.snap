@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar"
+  >
+    <div
+      class="nav-inner"
+    >
+      <img
+        alt=""
+        class="nav-img"
+        src="https://cdn.britannica.com/94/75394-050-C3F58654/World-map-Continents-Oceans-Seas.jpg"
+      />
+      <h4>
+        Search Countries
+      </h4>
+    </div>
+    <input
+      class="search-country"
+      placeholder="Search Country"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

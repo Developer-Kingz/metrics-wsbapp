@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component matches snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="navlink"
+    href="/details/undefined"
+  >
+    <div
+      class="details"
+    >
+      <div
+        class="details-inner"
+      >
+        <img
+          alt=""
+          class="flags"
+          src="flag.png"
+        />
+        <h4>
+          Country Name
+        </h4>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

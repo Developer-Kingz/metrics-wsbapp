@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewMore Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar"
+  >
+    <div
+      class="nav-inner"
+    >
+      <img
+        alt=""
+        class="nav-img"
+        src="https://cdn.britannica.com/94/75394-050-C3F58654/World-map-Continents-Oceans-Seas.jpg"
+      />
+      <h4>
+        Search Countries
+      </h4>
+    </div>
+    <input
+      class="search-country"
+      placeholder="Search Country"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="viewmore"
+  >
+    <a
+      aria-current="page"
+      class="nav active"
+      href="/"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-arrow-left arr"
+        data-icon="arrow-left"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+          fill="currentColor"
+        />
+      </svg>
+    </a>
+    <div
+      class="details-cont"
+    >
+      <img
+        alt=""
+        class="cont-flag"
+      />
+      <div
+        class="details-cont-inner"
+      >
+        <div
+          class="cont-in"
+        >
+          <h1>
+            Country Name:
+          </h1>
+          <h3>
+            Capital:Test Capital
+          </h3>
+        </div>
+        <div
+          class="region"
+        >
+          <h4>
+            Region:
+          </h4>
+          <h4>
+            Countries Population:Test Population
+          </h4>
+          <h4>
+            Language:spain
+          </h4>
+          <h4 />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
